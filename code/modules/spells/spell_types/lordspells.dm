@@ -65,7 +65,7 @@
 		explosion(target,1,2,4,2)
 		user << "<font color=purple><b>You redirect an absurd amount of energy into [target]'s corpse, causing it to violently explode!</b></font>"
 	else
-		user << "<span class='warning'>[target] isn't a dead corpse!</span>"
+		user << "<span class='warning'>[target] isn't dead!</span>"
 		charge_counter = charge_max
 
 /obj/effect/proc_holder/spell/self/soulsplit
